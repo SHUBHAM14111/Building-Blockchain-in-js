@@ -1,0 +1,22 @@
+{
+  "name": "building-blockchain-in",
+  "version": "1.0.0",
+  "description": "Building my own Blockchain in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SHUBHAM14111/Building-Blockchain-in-js.git"
+  },
+  "author": "Shubham Gandhi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SHUBHAM14111/Building-Blockchain-in-js/issues"
+  },
+  "homepage": "https://github.com/SHUBHAM14111/Building-Blockchain-in-js#readme",
+  "dependencies": {
+    "sha256": "^0.2.0"
+  }
+}
