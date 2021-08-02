@@ -39,7 +39,7 @@ Blockchain.prototype.createNewTransaction = function (
 ) {
   const newTransaction = { amount, sender, receiver };
   this.pendingTransactions.push(newTransaction);
-  return this.getLastBlock["index"] + 1; // return the index of the block containing new transaction
+  return this.getLastBlock()["index"] + 1; // return the index of the block containing new transaction
 };
 
 //Function to hash blockData
